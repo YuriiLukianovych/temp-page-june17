@@ -1,17 +1,17 @@
-// @import './fonts';
-@import './layout/_header';
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+// font-family: 'Manrope', sans-serif;
 
+// base
+@import "./base/commons";
+@import "./base/container";
 
-body{
-    font-family: Veles, sans-serif;
-    font-weight: 700;
-    background-color: #cdcdcc;
-    span{
-        color: #390c03;
-    }
-}
+// components
+@import "./components/buttons";
 
-img{
-    display: block;
-    max-width: 800px;
-}
+// layout
+@import "./layout/header";
+@import "./layout/hero";
+
+// utils
+@import "./utils/display-none";
