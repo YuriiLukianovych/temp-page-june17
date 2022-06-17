@@ -1,12 +1,13 @@
 .hero {
     padding: 150px 0;
     background-color: #111020;
-    background-image: url("@img/hero-bg.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
+    // background-image: url("../img/hero-bg.jpg");
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    position: relative;
 
     &__title {
-        max-width: 450px;
+        max-width: 500px;
         color: #fff;
         font-size: 58px;
         line-height: 76px;
@@ -26,5 +27,28 @@
     }
     .btn--accent {
         margin-right: 24px;
+    }
+
+    .bg-hero {
+        width: 150px;
+        height: 150px;
+        background-color: #7952b3;
+        border-radius: 50%;
+        filter: blur(100px);
+
+        position: absolute;
+    }
+    .bg-1 {
+        top: 50px;
+        right: 0;
+        transform: translateX(10%);
+    }
+    .bg-2 {
+        top: 150px;
+        left: 550px;
+    }
+    .bg-3 {
+        bottom: 0;
+        left: 0;
     }
 }
