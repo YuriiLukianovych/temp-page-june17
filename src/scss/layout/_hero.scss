@@ -41,8 +41,10 @@
         pointer-events: none;
     }
     .bg-1 {
-        top: -20px;
-        right: 0;
+        width: 300px;
+        height: 300px;
+        top: 0;
+        right: -70px;
         transform: translateX(10%);
     }
     .bg-2 {
