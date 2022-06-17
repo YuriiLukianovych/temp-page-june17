@@ -1,6 +1,9 @@
-import * as helpFunctions from './modules/functions.js';
+import * as helpFunctions from "./modules/functions.js";
+import { scrollIntoAnchor } from "./modules/scrollToAnchors.js";
 
-helpFunctions.isWebp()
+helpFunctions.isWebp();
+
+scrollIntoAnchor();
 
 // import Swiper, { Navigation, Pagination } from 'swiper';
 

@@ -18,13 +18,14 @@
     }
 
     .logo {
+        height: 50px;
         display: block;
         display: flex;
         align-items: center;
         color: #fff;
         font-size: 22px;
         font-weight: 800;
-        line-height: 35px;
+        line-height: 1;
         text-decoration: none;
 
         margin-right: 50px;
@@ -41,10 +42,16 @@
         }
 
         &__name {
+            padding-bottom: 3px;
+            height: 100%;
             color: #fff;
             font-size: 22px;
-            font-weight: 800;
-            line-height: 35px;
+            font-weight: 700;
+            line-height: 1;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 
@@ -61,7 +68,7 @@
         color: #fff;
         font-size: 14px;
         font-weight: 600;
-        line-height: 40px;
+        line-height: 1;
         padding-left: 20px;
         padding-right: 20px;
         transition: background-color 250ms;
@@ -78,12 +85,17 @@
         }
     }
     .header-nav {
+        height: 100%;
         margin-right: auto;
         &__list {
+            height: 100%;
             display: flex;
         }
 
         &__list-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             &:not(:last-child) {
                 margin-right: 28px;
             }

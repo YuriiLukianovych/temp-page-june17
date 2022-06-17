@@ -1,17 +1,18 @@
 .hero {
-    padding: 150px 0;
+    padding: 175px 0;
     background-color: #111020;
     // background-image: url("../img/hero-bg.jpg");
     // background-position: center center;
     // background-repeat: no-repeat;
     position: relative;
+    overflow: hidden;
 
     &__title {
         max-width: 500px;
         color: #fff;
         font-size: 58px;
         line-height: 76px;
-        font-weight: 800;
+        font-weight: 700;
 
         margin-bottom: 30px;
     }
@@ -30,25 +31,27 @@
     }
 
     .bg-hero {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
         background-color: #7952b3;
         border-radius: 50%;
         filter: blur(100px);
 
         position: absolute;
+        pointer-events: none;
     }
     .bg-1 {
-        top: 50px;
+        top: -20px;
         right: 0;
         transform: translateX(10%);
     }
     .bg-2 {
         top: 150px;
         left: 550px;
+        background-color: #7952b3;
     }
     .bg-3 {
-        bottom: 0;
-        left: 0;
+        bottom: -50px;
+        left: -20px;
     }
 }
