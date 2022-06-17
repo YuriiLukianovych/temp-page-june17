@@ -1,7 +1,9 @@
 .hero {
     padding: 150px 0;
     background-color: #111020;
-    background: #111020 url("@img/hero-bg.jpg") center/cover no-repeat;
+    background-image: url("@img/hero-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
 
     &__title {
         max-width: 450px;
