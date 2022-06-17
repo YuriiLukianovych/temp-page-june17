@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project -landing</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css?_v=20220617143132"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css?_v=20220617154644"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.min.css?_v=20220617143132">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220617154644">
 </head>
 
 <body>
 
     <header class="header">
         <div class="container">
-            <div class="login-box">
-                <button class="login-btn" type="button">Log In</button>
-                <button class="login-btn signup-btn" type="button">Sign Up</button>
-            </div>
+            <a class="logo" href="/">
+                <div class="logo__img"></div>
+                <div class="logo__name">Company</div>
+            </a>
 
             <nav class="header-nav">
                 <ul class="header-nav__list">
@@ -31,16 +31,24 @@
                     </li>
                 </ul>
             </nav>
+
+            <div class="login-box">
+                <button class="login-btn" type="button">Log In</button>
+                <button class="login-btn signup-btn" type="button">Sign Up</button>
+            </div>
         </div>
     </header>
     <section class="hero">
         <div class="container">
-            <h1 class="hero__title">Make Your Life Even Easier with 'Project Name'</h1>
+            <h1 class="hero__title">Lorem, ipsum dolor sit amet consectetur adipisicing.</h1>
             <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloremque facilis
                 eveniet unde nemo laudantium ad!</p>
             <button class="btn btn--accent" type="button">Start trial now</button>
             <button class="btn" type="button">Contact us</button>
         </div>
+        <div class="bg-hero bg-1"></div>
+        <div class="bg-hero bg-2"></div>
+        <div class="bg-hero bg-3"></div>
     </section>
 
 </body>
